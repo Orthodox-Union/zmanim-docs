@@ -40,17 +40,17 @@ Parameters: mode, dateBegin, dateEnd, israel_holidays, candles_offset, havdala_o
   <tr>
     <td>lat</td>
     <td>Latitude of the place being searched</td>
-    <td>Number</td>
+    <td>Long</td>
   </tr>
   <tr>
     <td>lng</td>
     <td>Longitude of the place being searched</td>
-    <td>Number</td>
+    <td>Long</td>
   </tr>
   <tr>
     <td>timezone</td>
     <td>Timezone of the place being searched</td>
-    <td>Name of the timezone. Example: America/New_York</td>
+    <td>Name of the timezone from Olson Database. Example: America/New_York</td>
   </tr>
   <tr>
     <td>ical</td>
@@ -135,7 +135,7 @@ Parameters: year, hebrewYear, israelHolidays, callback, php
   </tr>
   <tr>
     <td>callback</td>
-    <td>(optional) Specify callback function to send information back to</td>
+    <td>(optional) Used for jsonp response</td>
     <td>Function name. If none specified will return json string.</td>
   </tr>
   <tr>
@@ -233,7 +233,7 @@ Parameters: ip, country, city, region, term, limit, format, callback
   </tr>
   <tr>
     <td>callback</td>
-    <td>(optional) Specify callback function to send information back to</td>
+    <td>(optional) Used for jsonp</td>
     <td>Function name. If none specified will return json string.</td>
   </tr>
 </table>
@@ -315,7 +315,7 @@ Parameters: ip, country, city, region, zipCode, legacy, format, callback
   </tr>
   <tr>
     <td>callback</td>
-    <td>(optional) Specify callback function to send information back to</td>
+    <td>(optional) Used for jsonp</td>
     <td>Function name. If none specified will return json string.</td>
   </tr>
 </table>
@@ -367,7 +367,7 @@ Parameters: term, limit, format, callback
   </tr>
   <tr>
     <td>callback</td>
-    <td>(optional) Specify callback function to send information back to</td>
+    <td>(optional) Used for jsonp</td>
     <td>Function name. If none specified will return json string.</td>
   </tr>
 </table>
