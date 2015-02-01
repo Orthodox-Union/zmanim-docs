@@ -391,3 +391,29 @@ JSON
    "San Agust, ES"
 ]
 ```  
+### To Get Parsha Info:  
+
+Url: http://db.ou.org/zmanim/getParshaData.php  
+Parameters: date
+
+<table>
+  <tr>
+    <th>Name</th><th>Description</th><th>Format</th>
+  </tr>
+  <tr>
+    <td>date</td>
+    <td>Specify date in week</td>
+    <td>Date in M/D/Y format</td>
+  </tr>
+</table>
+
+Uses:  
+http://db.ou.org/zmanim/getParshaData.php?date=2/13/2015
+
+Returns:
+JSON  
+```json
+{
+   "parsha" : "Mishpatim"
+}
+```  
