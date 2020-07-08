@@ -74,7 +74,7 @@ Parameters: mode, dateBegin, dateEnd, israel_holidays, candles_offset, havdala_o
   </tr>
   <tr>
     <td>shabbos_times</td>
-    <td>(optional) Specify if to include extra shabbos times</td>
+    <td>(optional) Specify if to include extra shabbos times (Havdala and Plag Mincha)</td>
     <td>Boolean true/false. Default: false</td>
   </tr>  
 </table>
