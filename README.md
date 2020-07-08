@@ -1,7 +1,7 @@
 ### To Get Zmanim Info:  
 
 Url: http://db.ou.org/zmanim/getCalendarData.php  
-Parameters: mode, dateBegin, dateEnd, israel_holidays, candles_offset, havdala_offset, lat, lng, timezone, ical, csv, chametz_times
+Parameters: mode, dateBegin, dateEnd, israel_holidays, candles_offset, havdala_offset, lat, lng, timezone, zipCode, ical, csv, chametz_times, shabbos_times
 
 <table>
   <tr>
@@ -39,19 +39,24 @@ Parameters: mode, dateBegin, dateEnd, israel_holidays, candles_offset, havdala_o
   </tr>
   <tr>
     <td>lat</td>
-    <td>Latitude of the place being searched</td>
+    <td>(optional can be replaced with zipCode) Latitude of the place being searched</td>
     <td>Long</td>
   </tr>
   <tr>
     <td>lng</td>
-    <td>Longitude of the place being searched</td>
+    <td>(optional can be replaced with zipCode) Longitude of the place being searched</td>
     <td>Long</td>
   </tr>
   <tr>
     <td>timezone</td>
-    <td>Timezone of the place being searched</td>
+    <td>(optional can be replaced with zipCode) Timezone of the place being searched</td>
     <td>Name of the timezone from Olson Database. Example: America/New_York</td>
   </tr>
+  <tr>
+    <td>zipCode</td>
+    <td>(optional can be replaced with lat/lng/timezone) Zip Code of the place being searched</td>
+    <td>Valid Zipcode</td>
+  </tr>  
   <tr>
     <td>ical</td>
     <td>(optional) Specify if output should be in iCal file</td>
@@ -67,6 +72,11 @@ Parameters: mode, dateBegin, dateEnd, israel_holidays, candles_offset, havdala_o
     <td>(optional) Specify if to include latest times for eating and burning chametz</td>
     <td>Boolean true/false. Default: false</td>
   </tr>
+  <tr>
+    <td>shabbos_times</td>
+    <td>(optional) Specify if to include extra shabbos times</td>
+    <td>Boolean true/false. Default: false</td>
+  </tr>  
 </table>
 
 Uses:
