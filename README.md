@@ -1,6 +1,6 @@
 ### To Get Zmanim Info:  
 
-Url: https://db.ou.org/zmanim/getCalendarData.php  
+Url: https://zmanim.ou.org/zmanim/getCalendarData.php<br>
 Parameters: mode, dateBegin, dateEnd, israel_holidays, candles_offset, havdala_offset, lat, lng, timezone, zipCode, ical, csv, chametz_times, shabbos_times
 
 <table>
@@ -80,7 +80,7 @@ Parameters: mode, dateBegin, dateEnd, israel_holidays, candles_offset, havdala_o
 </table>
 
 Uses:
-https://db.ou.org/zmanim/getCalendarData.php?mode=day&timezone=America/New_York&dateBegin=4/14/2014&lat=40.590034&lng=-73.940101
+https://zmanim.ou.org/zmanim/getCalendarData.php?mode=day&timezone=America/New_York&dateBegin=4/14/2014&lat=40.590034&lng=-73.940101
 
 
 Returns:
@@ -121,7 +121,7 @@ JSON
 ```
 ### To Get Holiday Info:  
 
-Url: https://db.ou.org/zmanim/getHolidayCalData.php  
+Url: https://zmanim.ou.org/zmanim/getHolidayCalData.php<br>
 Parameters: year, hebrewYear, israelHolidays, callback, php  
 
 <table>
@@ -157,7 +157,7 @@ Parameters: year, hebrewYear, israelHolidays, callback, php
 
 Uses:  
 For Holiday Information:  
-https://db.ou.org/zmanim/getHolidayCalData.php?year=2014&israelHolidays=true
+https://zmanim.ou.org/zmanim/getHolidayCalData.php?year=2014&israelHolidays=true
 
 
 Returns:
@@ -177,7 +177,7 @@ JSON
    }, ...]
 ```
 For Rosh Chodesh Information:  
-https://db.ou.org/zmanim/getHolidayCalData.php?hebrewYear=5774
+https://zmanim.ou.org/zmanim/getHolidayCalData.php?hebrewYear=5774
 
 Returns:
 JSON  
@@ -199,7 +199,7 @@ JSON
 ```  
 ### To Get Geographical Info:  
 
-Url: https://db.ou.org/geoip  
+Url: https://zmanim.ou.org/geoip<br>
 Parameters: ip, country, city, region, term, limit, format, callback
 
 <table>
@@ -250,7 +250,7 @@ Parameters: ip, country, city, region, term, limit, format, callback
 
 Uses:  
 For Geographical Information:  
-https://db.ou.org/geoip/?country=US&city=monsey
+https://zmanim.ou.org/geoip/?country=US&city=monsey
 
 Returns:
 JSON  
@@ -266,7 +266,7 @@ JSON
 }
 ```  
 For Autocomplete Data:  
-https://db.ou.org/geoip/?term=Mon&limit=5
+https://zmanim.ou.org/geoip/?term=Mon&limit=5
 
 Returns:
 JSON  
@@ -281,7 +281,7 @@ JSON
 ```
 ### To Get Location Info:  
 
-Url: https://db.ou.org/location  
+Url: https://zmanim.ou.org/location<br>
 Parameters: ip, country, city, region, zipCode, legacy, format, callback
 
 <table>
@@ -331,7 +331,7 @@ Parameters: ip, country, city, region, zipCode, legacy, format, callback
 </table>
 
 Uses:  
-https://db.ou.org/location/?city=Toronto&country=CA
+https://zmanim.ou.org/location/?city=Toronto&country=CA
 
 Returns:
 JSON  
@@ -353,7 +353,7 @@ JSON
 ```  
 ### To Get Autocomplete Location Info:  
 
-Url: https://db.ou.org/location/autocomplete.php  
+Url: https://zmanim.ou.org/location/autocomplete.php<br>
 Parameters: term, limit, format, callback
 
 <table>
@@ -383,7 +383,7 @@ Parameters: term, limit, format, callback
 </table>
 
 Uses:  
-https://db.ou.org/location/autocomplete.php?term=san
+https://zmanim.ou.org/location/autocomplete.php?term=san
 
 Returns:
 JSON  
@@ -403,7 +403,7 @@ JSON
 ```  
 ### To Get Parsha Info:  
 
-Url: https://db.ou.org/zmanim/getParshaData.php  
+Url: https://zmanim.ou.org/zmanim/getParshaData.php<br>
 Parameters: date
 
 <table>
@@ -418,7 +418,7 @@ Parameters: date
 </table>
 
 Uses:  
-https://db.ou.org/zmanim/getParshaData.php?date=2/13/2015
+https://zmanim.ou.org/zmanim/getParshaData.php?date=2/13/2015
 
 Returns:
 JSON  
